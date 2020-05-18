@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		6EF2ADEC2472FF8F00F15565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2ADEB2472FF8F00F15565 /* AppDelegate.swift */; };
 		6EF2ADEE2472FF8F00F15565 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2ADED2472FF8F00F15565 /* SceneDelegate.swift */; };
-		6EF2ADF02472FF8F00F15565 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2ADEF2472FF8F00F15565 /* ViewController.swift */; };
-		6EF2ADF32472FF8F00F15565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF2ADF12472FF8F00F15565 /* Main.storyboard */; };
 		6EF2ADF52472FF9500F15565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF2ADF42472FF9500F15565 /* Assets.xcassets */; };
 		6EF2ADF82472FF9500F15565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF2ADF62472FF9500F15565 /* LaunchScreen.storyboard */; };
 		6EF2AE032472FF9500F15565 /* SpiltMilkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AE022472FF9500F15565 /* SpiltMilkTests.swift */; };
 		6EF2AE0E2472FF9500F15565 /* SpiltMilkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AE0D2472FF9500F15565 /* SpiltMilkUITests.swift */; };
+		6EF2AE1C2473002600F15565 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AE1B2473002600F15565 /* MainTabBarViewController.swift */; };
+		6EF2AE1E2473004C00F15565 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AE1D2473004C00F15565 /* HomeViewController.swift */; };
+		6EF2AE202473006B00F15565 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AE1F2473006B00F15565 /* AddPostViewController.swift */; };
+		6EF2AE222473008000F15565 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AE212473008000F15565 /* FavoritesViewController.swift */; };
+		6EF2AE242473009800F15565 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AE232473009800F15565 /* ProfileViewController.swift */; };
+		6EF2AE26247300BE00F15565 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AE25247300BE00F15565 /* Post.swift */; };
+		6EF2AE28247300E600F15565 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AE27247300E600F15565 /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +43,6 @@
 		6EF2ADE82472FF8F00F15565 /* SpiltMilk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiltMilk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF2ADEB2472FF8F00F15565 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EF2ADED2472FF8F00F15565 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6EF2ADEF2472FF8F00F15565 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6EF2ADF22472FF8F00F15565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EF2ADF42472FF9500F15565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EF2ADF72472FF9500F15565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EF2ADF92472FF9500F15565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		6EF2AE092472FF9500F15565 /* SpiltMilkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiltMilkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF2AE0D2472FF9500F15565 /* SpiltMilkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiltMilkUITests.swift; sourceTree = "<group>"; };
 		6EF2AE0F2472FF9500F15565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF2AE1B2473002600F15565 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		6EF2AE1D2473004C00F15565 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6EF2AE1F2473006B00F15565 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		6EF2AE212473008000F15565 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		6EF2AE232473009800F15565 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6EF2AE25247300BE00F15565 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		6EF2AE27247300E600F15565 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				6EF2ADEB2472FF8F00F15565 /* AppDelegate.swift */,
+				6EF2AE292473013F00F15565 /* Control */,
+				6EF2AE2B2473016800F15565 /* View */,
+				6EF2AE2A2473015E00F15565 /* Model */,
 				6EF2ADED2472FF8F00F15565 /* SceneDelegate.swift */,
-				6EF2ADEF2472FF8F00F15565 /* ViewController.swift */,
-				6EF2ADF12472FF8F00F15565 /* Main.storyboard */,
 				6EF2ADF42472FF9500F15565 /* Assets.xcassets */,
-				6EF2ADF62472FF9500F15565 /* LaunchScreen.storyboard */,
 				6EF2ADF92472FF9500F15565 /* Info.plist */,
 			);
 			path = SpiltMilk;
@@ -126,6 +136,59 @@
 				6EF2AE0F2472FF9500F15565 /* Info.plist */,
 			);
 			path = SpiltMilkUITests;
+			sourceTree = "<group>";
+		};
+		6EF2AE292473013F00F15565 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				6EF2AE1B2473002600F15565 /* MainTabBarViewController.swift */,
+				6EF2AE2C2473017900F15565 /* Profile */,
+				6EF2AE2D2473018400F15565 /* Home */,
+				6EF2AE2E2473019200F15565 /* Favorites */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		6EF2AE2A2473015E00F15565 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EF2AE25247300BE00F15565 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EF2AE2B2473016800F15565 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6EF2ADF62472FF9500F15565 /* LaunchScreen.storyboard */,
+				6EF2AE27247300E600F15565 /* PostTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6EF2AE2C2473017900F15565 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6EF2AE232473009800F15565 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6EF2AE2D2473018400F15565 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6EF2AE1F2473006B00F15565 /* AddPostViewController.swift */,
+				6EF2AE1D2473004C00F15565 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6EF2AE2E2473019200F15565 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				6EF2AE212473008000F15565 /* FavoritesViewController.swift */,
+			);
+			path = Favorites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +297,6 @@
 			files = (
 				6EF2ADF82472FF9500F15565 /* LaunchScreen.storyboard in Resources */,
 				6EF2ADF52472FF9500F15565 /* Assets.xcassets in Resources */,
-				6EF2ADF32472FF8F00F15565 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +321,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EF2ADF02472FF8F00F15565 /* ViewController.swift in Sources */,
+				6EF2AE1C2473002600F15565 /* MainTabBarViewController.swift in Sources */,
+				6EF2AE202473006B00F15565 /* AddPostViewController.swift in Sources */,
 				6EF2ADEC2472FF8F00F15565 /* AppDelegate.swift in Sources */,
+				6EF2AE26247300BE00F15565 /* Post.swift in Sources */,
 				6EF2ADEE2472FF8F00F15565 /* SceneDelegate.swift in Sources */,
+				6EF2AE242473009800F15565 /* ProfileViewController.swift in Sources */,
+				6EF2AE222473008000F15565 /* FavoritesViewController.swift in Sources */,
+				6EF2AE1E2473004C00F15565 /* HomeViewController.swift in Sources */,
+				6EF2AE28247300E600F15565 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +365,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6EF2ADF12472FF8F00F15565 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6EF2ADF22472FF8F00F15565 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6EF2ADF62472FF9500F15565 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
