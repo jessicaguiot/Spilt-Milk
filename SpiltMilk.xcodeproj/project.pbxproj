@@ -228,13 +228,13 @@
 			sourceTree = "<group>";
 
 		};
+
 		D5D9440D2477323500960802 /* RecoverPassword */ = {
 			isa = PBXGroup;
 			children = (
 				D5D9440B247731F800960802 /* RecoverPasswordViewController.swift */,
 			);
 			path = RecoverPassword;
-
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,7 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<
+
 				D8EA6A05247EC10F005905DA /* LoginLabel.swift in Sources */,
 				D8EA6A09247FF41A005905DA /* LinkButton.swift in Sources */,
 
