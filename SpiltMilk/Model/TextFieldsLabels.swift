@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginLabel: UILabel {
+class TextFieldsLabels: UILabel {
 
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!

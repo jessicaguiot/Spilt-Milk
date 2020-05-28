@@ -45,8 +45,8 @@ class LoginViewController: UIViewController {
     }
     
     
-    let emailLabel              = LoginLabel()
-    let passwordLabel           = LoginLabel()
+    let emailLabel              = TextFieldsLabels()
+    let passwordLabel           = TextFieldsLabels()
     
     let emailTextField          = BottomLineTextField()
     let passwordTextField       = BottomLineTextField()
