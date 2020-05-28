@@ -20,6 +20,11 @@
 		6EF2AE242473009800F15565 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AE232473009800F15565 /* ProfileViewController.swift */; };
 		6EF2AE26247300BE00F15565 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AE25247300BE00F15565 /* Post.swift */; };
 		6EF2AE28247300E600F15565 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2AE27247300E600F15565 /* PostTableViewCell.swift */; };
+		D8EA6A03247EB59F005905DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA6A02247EB59F005905DA /* LoginViewController.swift */; };
+		D8EA6A05247EC10F005905DA /* LoginLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA6A04247EC10F005905DA /* LoginLabel.swift */; };
+		D8EA6A07247EC789005905DA /* BottomLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA6A06247EC789005905DA /* BottomLineTextField.swift */; };
+		D8EA6A09247FF41A005905DA /* LinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA6A08247FF41A005905DA /* LinkButton.swift */; };
+		D8EA6A0B247FF9D9005905DA /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA6A0A247FF9D9005905DA /* DefaultButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		6EF2AE232473009800F15565 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		6EF2AE25247300BE00F15565 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		6EF2AE27247300E600F15565 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		D8EA6A02247EB59F005905DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D8EA6A04247EC10F005905DA /* LoginLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginLabel.swift; sourceTree = "<group>"; };
+		D8EA6A06247EC789005905DA /* BottomLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLineTextField.swift; sourceTree = "<group>"; };
+		D8EA6A08247FF41A005905DA /* LinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButton.swift; sourceTree = "<group>"; };
+		D8EA6A0A247FF9D9005905DA /* DefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				6EF2AE1B2473002600F15565 /* MainTabBarViewController.swift */,
+				D8EA6A01247EB546005905DA /* Login */,
 				6EF2AE2C2473017900F15565 /* Profile */,
 				6EF2AE2D2473018400F15565 /* Home */,
 				6EF2AE2E2473019200F15565 /* Favorites */,
@@ -153,6 +164,10 @@
 			isa = PBXGroup;
 			children = (
 				6EF2AE25247300BE00F15565 /* Post.swift */,
+				D8EA6A04247EC10F005905DA /* LoginLabel.swift */,
+				D8EA6A06247EC789005905DA /* BottomLineTextField.swift */,
+				D8EA6A08247FF41A005905DA /* LinkButton.swift */,
+				D8EA6A0A247FF9D9005905DA /* DefaultButton.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +204,14 @@
 				6EF2AE212473008000F15565 /* FavoritesViewController.swift */,
 			);
 			path = Favorites;
+			sourceTree = "<group>";
+		};
+		D8EA6A01247EB546005905DA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA6A02247EB59F005905DA /* LoginViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +344,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8EA6A05247EC10F005905DA /* LoginLabel.swift in Sources */,
+				D8EA6A09247FF41A005905DA /* LinkButton.swift in Sources */,
 				6EF2AE1C2473002600F15565 /* MainTabBarViewController.swift in Sources */,
+				D8EA6A07247EC789005905DA /* BottomLineTextField.swift in Sources */,
 				6EF2AE202473006B00F15565 /* AddPostViewController.swift in Sources */,
 				6EF2ADEC2472FF8F00F15565 /* AppDelegate.swift in Sources */,
 				6EF2AE26247300BE00F15565 /* Post.swift in Sources */,
@@ -329,7 +355,9 @@
 				6EF2AE242473009800F15565 /* ProfileViewController.swift in Sources */,
 				6EF2AE222473008000F15565 /* FavoritesViewController.swift in Sources */,
 				6EF2AE1E2473004C00F15565 /* HomeViewController.swift in Sources */,
+				D8EA6A03247EB59F005905DA /* LoginViewController.swift in Sources */,
 				6EF2AE28247300E600F15565 /* PostTableViewCell.swift in Sources */,
+				D8EA6A0B247FF9D9005905DA /* DefaultButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -50,12 +50,8 @@ class ProfileViewController: UIViewController {
     
     var profileTextField: UITextField {
         
-        let textField = UITextField()
-        textField.borderStyle = .none
-        textField.underlined()
+        let textField = BottomLineTextField()
         textField.delegate = self
-        textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.heightAnchor.constraint(equalToConstant: 20).isActive = true
         return textField
     }
     
@@ -184,13 +180,3 @@ extension ProfileViewController: UITextFieldDelegate {
 }
 
 
-extension UITextField {
-    
-    func underlined(){
-        let bottomLine = CALayer()
-        bottomLine.frame = CGRect(x: 0.0, y: 25, width: 300, height: 1.0)
-        bottomLine.backgroundColor = UIColor.black.cgColor
-        self.layer.addSublayer(bottomLine)
-    }
-    
-}

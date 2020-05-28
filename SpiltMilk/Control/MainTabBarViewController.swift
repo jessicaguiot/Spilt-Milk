@@ -15,7 +15,7 @@ class MainTabBarViewController: UITabBarController {
         self.tabBar.tintColor = #colorLiteral(red: 0, green: 0.5137254902, blue: 0.5607843137, alpha: 1)
     }
     func setupTabBar(){
-        let profileViewController = setupVc(rootViewController: ProfileViewController(), image: UIImage(systemName: "person.fill")!, title: "Profile")
+        let profileViewController = setupVc(rootViewController: LoginViewController(), image: UIImage(systemName: "person.fill")!, title: "Profile")
         let homeViewController = setupVc(rootViewController: HomeViewController(), image: UIImage(systemName: "house.fill")!, title: "Home")
         let favoritesViewController = setupVc(rootViewController: FavoritesViewController(), image: UIImage(systemName: "bookmark.fill")!, title: "Favorites")
         viewControllers = [profileViewController,homeViewController,favoritesViewController]
