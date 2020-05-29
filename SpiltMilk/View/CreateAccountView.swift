@@ -77,7 +77,7 @@ class CreateAccountView: UIView {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
         stackView.spacing = 15
-        stackView.distribution = .fill
+        stackView.distribution = .fillEqually
         
         setStackViewConstraints()
         addElementsToStackView()
@@ -119,8 +119,8 @@ class CreateAccountView: UIView {
         
         stackView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 56).isActive                      = true
         stackView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -56).isActive                   = true
-        stackView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -134).isActive               = true
-        stackView.topAnchor.constraint(equalTo: pickerView.bottomAnchor, constant: 10).isActive                        = true
+        stackView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -134).isActive                      = true
+        stackView.topAnchor.constraint(equalTo: pickerView.bottomAnchor, constant: 20).isActive                     = true
     }
     
     
